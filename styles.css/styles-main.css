@@ -1,0 +1,62 @@
+:root {
+    --link-font-family: 'Roboto';
+    --link-color: #fff
+}
+ul {
+    list-style-type: none;
+}
+.link .link-studio {
+    width: 1600px;
+    height: 1px;
+}
+.link {
+    color: #212121;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.link-studio {
+    color:#2196F3;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+ .link:hover, .link:focus {
+    color:#2196F3;
+ }
+
+
+.main-section .hero-title {
+    color: var(--link-color);
+    text-align: center;
+    font-size: 44px;
+    font-family: var(--link-font-family);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+
+.main-section .hero-section {
+    background-color: #333;
+}
+
+.button {
+    color: var(--link-color);
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--link-font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    background-color: #2196F3;;
+}
