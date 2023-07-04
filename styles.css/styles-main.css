@@ -100,19 +100,21 @@ a:link,a:visited {
  }
 .main-section h6 {
     color: var(--link-third-color);
-    font-size: 0.875em;
+    font-size: 1em;
     font-family: var(--link-font-family);
     font-weight: 700;
     letter-spacing: 0.02625em;
     text-transform: uppercase;
+    text-align: center;
 }
 .main-section p {
     color: var(--link-another-color);
-    font-size: 0.875em;
+    font-size: 1.5em;
     font-family: var(--link-font-family);
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02625em;
+    text-align: center;
 }
 
  .hero-title {
