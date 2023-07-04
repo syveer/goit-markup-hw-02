@@ -6,6 +6,9 @@
     --link-third-color:#212121;
     --link-another-color: #757575;
 }
+.auto {
+    cursor: pointer;
+}
 .body-class {
     font-family: var(--link-font-family) ;
 }
