@@ -53,7 +53,7 @@ a:link,a:visited {
 .logo {
     position: absolute;
     top: 1.5em;
-    left: 13.4375em;
+    left: 10em;
     color:var(--link-active-color);
     font-size: 1.625em;
     font-family: Raleway;
@@ -164,7 +164,7 @@ a:link,a:visited {
     font-family: Raleway;
     font-weight: 700;
     letter-spacing: 0.04875em;
-    padding-left: 6.25em;
+    padding-left: 3.5em;
 }
 .adress {
     color: var(--link-color);
