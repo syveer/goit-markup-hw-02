@@ -9,8 +9,9 @@
 .auto {
     cursor: pointer;
 }
-.body-class {
+.container {
     font-family: var(--link-font-family) ;
+    width: 1600px
 }
 .global-header, .link, .link-studio, .link-portofolio, .phone-number, .email-adress {
     text-decoration: none; 
