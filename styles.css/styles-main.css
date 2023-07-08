@@ -103,7 +103,14 @@ a:link,a:visited {
   {
     color: var(--link-active-color);
  }
-.main-section h6 {
+ .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+ }
+.flex-container h6 {
     color: var(--link-third-color);
     font-size: 1em;
     font-family: var(--link-font-family);
@@ -112,7 +119,7 @@ a:link,a:visited {
     text-transform: uppercase;
     text-align: center;
 }
-.main-section p {
+.flex-container p {
     color: var(--link-another-color);
     font-size: 1.5em;
     font-family: var(--link-font-family);
