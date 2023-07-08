@@ -67,12 +67,16 @@ a:visited {
   align-content: space-between;
 }
 .link-portofolio {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  position: absolute;
-  top: 2em;
-  left: 71.875em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    width: 1600px;
+    height: 80px;
+    flex-shrink: 0;
 }
 .phone-number {
   display: flex;
