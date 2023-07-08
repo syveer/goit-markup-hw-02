@@ -122,7 +122,6 @@ a:link,a:visited {
     color: var(--link-another-color);
     font-size: 1.5em;
     font-family: var(--link-font-family);
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02625em;
     text-align: center;
@@ -182,16 +181,6 @@ a:link,a:visited {
     padding-top: 15.625em;
     padding-bottom: 2.5em;
     
-}
-.sub-title {
-    color: var(--link-third-color);
-    font-size: 0.875em;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.02625em;
-    text-transform: uppercase;
 }
 
 .column {
