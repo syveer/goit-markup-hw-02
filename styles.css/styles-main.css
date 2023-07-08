@@ -205,7 +205,7 @@ a:link,a:visited {
     line-height: 1.5em;
     letter-spacing: 0.02625em;
 }
-.second-section {
+ul.menu {
     display: block;
     height: 300px;
     flex-direction: row;
