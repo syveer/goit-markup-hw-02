@@ -9,6 +9,9 @@
 .auto {
   cursor: pointer;
 }
+.container {
+    width: 1600px;
+}
 .body-class {
   font-family: var(--link-font-family);
   width: 1600px;
