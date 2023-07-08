@@ -21,7 +21,7 @@
     text-decoration: none; 
 }
 ul {
-    color: var(--navigation-menu);
+    color: var(--link-third-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
@@ -30,7 +30,7 @@ ul {
     margin: 32px 48px 32px 0px;
 }
 li {
-    color: var(--navigation-menu);
+    color: var(--link-third-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
