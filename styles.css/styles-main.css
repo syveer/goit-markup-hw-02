@@ -103,13 +103,7 @@ a:link,a:visited {
   {
     color: var(--link-active-color);
  }
- .flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
- }
+ 
 .flex-container h6 {
     color: var(--link-third-color);
     font-size: 1em;
@@ -118,6 +112,11 @@ a:link,a:visited {
     letter-spacing: 0.02625em;
     text-transform: uppercase;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
 }
 .flex-container p {
     color: var(--link-another-color);
@@ -127,6 +126,11 @@ a:link,a:visited {
     line-height: 1.5em;
     letter-spacing: 0.02625em;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
 }
 .hero-continer {
     display: flex;
@@ -134,7 +138,9 @@ a:link,a:visited {
     justify-content: center; /* Axa Principala */
     align-items: center; /* Axa Secundara  */
     height: 400px;
-    background-color: #333;
+}
+.hero-continer {
+    background-color: #2F303A;
 }
 
  .hero-title {
