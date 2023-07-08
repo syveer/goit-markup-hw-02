@@ -7,6 +7,7 @@
     --link-another-color: #757575;
 }
 .container {
+    box-sizing: border-box;
     width: 1600px;
     height: 2306px;
 }
@@ -120,6 +121,14 @@ a:link,a:visited {
     letter-spacing: 0.02625em;
     text-align: center;
 }
+.hero-continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Axa Principala */
+    align-items: center; /* Axa Secundara  */
+    height: 400px;
+    background-color: #333;
+}
 
  .hero-title {
     color: var(--link-color);
@@ -133,9 +142,7 @@ a:link,a:visited {
     top: 12.5em;
 }
 
-.hero-section {
-    background-color: #333;
-}
+
 
 .button {
     color: var(--link-color);
