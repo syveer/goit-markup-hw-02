@@ -207,9 +207,12 @@ a:link,a:visited {
 }
 ul.menu {
     display: block;
-    height: 300px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
 }
 .images {
     padding-left: 3.75em;
