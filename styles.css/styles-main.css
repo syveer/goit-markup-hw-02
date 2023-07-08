@@ -17,21 +17,26 @@
 .body-class {
     font-family: var(--link-font-family) ;
 }
-.global-header, .link, .link-studio, .link-portofolio, .phone-number, .email-adress {
+.main-navigation ul li .global-header, .link, .link-studio, .link-portofolio, .phone-number, .email-adress {
     text-decoration: none; 
 }
 ul {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	padding-top:0.375em;
-	padding-bottom:0.375em;
-    width: 100em;
-    height: 5em;
-    flex-shrink: 0;
+    color: var(--navigation-menu);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: 32px 48px 32px 0px;
 }
 li {
-	display:inline;
+    color: var(--navigation-menu);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: 32px 48px 32px 0px;
 }
 a:link,a:visited {
 	font-weight:bold;
