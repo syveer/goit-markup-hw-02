@@ -1,45 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>WebStudio</title>
-		<link rel="stylesheet" href="styles.css/modern-normalize.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="styles.css/styles-main.css">
-    </head>
-    <body class="body-class"> 
+	<!DOCTYPE html>
+	<html lang="en">
+    	<head>
+        	<meta charset="UTF-8">
+        	<title>WebStudio</title>
+			<link rel="stylesheet" href="styles.css/modern-normalize.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="styles.css/styles-main.css">
+    	</head>
+    	<body class="body-class"> 
 			<!--First row-->
-			<main class="container">
-				<div>
+			<header class="global-header">
+				<div class="header">
 					<a href="index.html">
-					<img src="images/Vector.png" alt="cursor" class="auto">
-					</a>
-				</div>
-				<header class="global-header">
-
+						<img src="images/WebStudio.png" alt="Studio Logo" class="logo"></a> 
 					<nav class="main-navigation">
 						<ul >
-							<li><a href="index.html">
-								<img src="images/WebStudio.png" alt="Studio Logo" class="logo"></a> </li>
-							<li><a href="studio.html" class="link-studio" >Studio </a></li>
-							<li><a href="portofolio.html" class="link-portofolio">Portofolio</a></li>
-							<li><a href="contacts.html" class="link">Contacts</a></li>
-							<li>
-								<a href="tel:+12127724150" class="phone-number">+1 212-772-4150 </a>
-							</li>
-							<li>
-								<a href="mailto:info@devstudio.com" class="email-adress">info@devstudio.com</a>
-							</li>
+							<li class="navigation-menu"><a href="studio.html" class="link-studio" >Studio </a></li>
+							<li class="navigation-menu"><a href="portofolio.html" class="link-portofolio">Portofolio</a></li>
+							<li class="navigation-menu"><a href="contacts.html" class="link">Contacts</a></li>
+							<li class="navigation-menu"><a href="tel:+12127724150" class="phone-number">+1 212-772-4150 </a></li>
+							<li class="navigation-menu"><a href="mailto:info@devstudio.com" class="email-adress">info@devstudio.com</a></li>
 						</ul>
 					</nav>
-				</header>
-			<!--main section-->
-				<section class="hero-container">
+				</div>
+				<div class="hero-container">
 					<h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-					<button type="button" class="button">Request our services</button>
-				</section>
+					<button class="button" type="button" >Request our services</button>
+				</div>
+			</header>
+			<!--main section-->
+			<main class="container">
 				<section class="main-section">
 					<div class="text">
 						<div class="column">
@@ -135,5 +127,5 @@
 					</ul>
 				</footer>
 			</main>
-    </body>
-</html>
+    	</body>
+	</html>
