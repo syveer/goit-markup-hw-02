@@ -9,7 +9,7 @@
 .auto {
     cursor: pointer;
 }
-.container {
+.body-class {
     font-family: var(--link-font-family) ;
     width: 1600px;
     height: 2348px;
