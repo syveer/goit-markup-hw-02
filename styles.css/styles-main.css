@@ -104,29 +104,36 @@ a:link,a:visited {
     color: var(--link-active-color);
  }
  
-.box h6 {
+.main-section h6 {
     color: var(--link-third-color);
     font-size: 1em;
     font-family: var(--link-font-family);
     font-weight: 700;
     letter-spacing: 0.02625em;
     text-transform: uppercase;
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    flex-shrink: 0;
 }
-.box p {
+.main-section .text {
     color: var(--link-another-color);
     font-size: 1.5em;
     font-family: var(--link-font-family);
     line-height: 1.5em;
     letter-spacing: 0.02625em;
-
+    display: flex;
+    width: 270px;
+    height: 75px;
+    flex-direction: column;
+    flex-shrink: 0;
 }
-.box-item {
+.text p h6 {
     text-align: center;
     padding: 0;
     margin: 0;
-    list-style: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .hero-continer {
     display: flex;
