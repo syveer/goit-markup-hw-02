@@ -122,11 +122,10 @@ a:link,a:visited {
     font-family: var(--link-font-family);
     line-height: 1.5em;
     letter-spacing: 0.02625em;
-    display: flex;
-    width: 270px;
-    height: 75px;
-    flex-direction: column;
-    flex-shrink: 0;
+    display: inline;
+    position: static;
+    float:left;
+    flex-direction: row;
 }
 .text p h6 {
     text-align: center;
