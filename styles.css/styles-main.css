@@ -17,9 +17,6 @@
 .global-header, .link, .link-studio, .link-portofolio, .phone-number, .email-adress {
     text-decoration: none; 
 }
-.flex-container {
-    width: 1600px;
-}
 .main-navigation {
 
     width: 1600px;
@@ -209,7 +206,7 @@ a:link,a:visited {
     letter-spacing: 0.02625em;
 }
 .second-section {
-    display: flex;
+    display: block;
     height: 300px;
     flex-direction: row;
     justify-content: space-evenly;
