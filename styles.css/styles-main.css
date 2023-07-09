@@ -125,43 +125,46 @@ li.navigation-menu a.email-adress {
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: var(--link-color);
+  color: var(--link-colorx);
   cursor: pointer;
   border-radius: 4px;
   background-color: var(--link-active-color);
 }
-
-.column {
-  display: inline;
-  position: static;
-  left: 13.4375em;
-  width: 16.875em;
-  height: 16.875em;
-  flex-direction: center;
-  justify-content: center;
-  padding: 2.5em;
-  color: var(--link-another-color);
-  font-size: 0.875em;
-  font-family: var(--link-font-family);
-  line-height: 1.5em;
-  letter-spacing: 0.02625em;
+.container div.column h3.sub-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--link-third-color);
 }
-.second-section {
-  display: inline;
-  padding-left: 2.5em;
-  padding-right: 2.5em;
+.container div.column p.details {
+  font-family: var(--link-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--link-another-color);
+  text-align: left;
+  margin: 2px;
+}
+.container .second-section h2.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: var(--link-font-family);
 }
 .images {
   padding-left: 3.75em;
   padding-right: 1.875em;
 }
-.third-section h3 {
-  color: var(--link-third-color);
-  text-align: center;
-  font-size: 1em;
-  font-family: var(--link-font-family);
-  font-weight: 500;
+.container .third-section h2.last-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .third-section p {
   color: var(--link-another-color);
@@ -170,29 +173,27 @@ li.navigation-menu a.email-adress {
   font-family: var(--link-font-family);
   letter-spacing: 0.03em;
 }
-.last-title {
-  color: var(--link-third-color);
-  text-align: center;
-  font-size: 2.25em;
-  font-family: var(--link-font-family);
-  font-weight: 700;
-  letter-spacing: 0.0675em;
-  padding-top: 6.25em;
-}
-.team-class {
-  color: var(--link-third-color);
-  text-align: center;
-  font-size: 1em;
-  font-family: var(--link-font-family);
+
+.third-section .employee-class strong.employee-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
   letter-spacing: 0.03em;
-  padding-top: 3.75em;
+  text-align: center;
+  color: var(--link-third-color);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 30px;
+  flex-shrink: 0;
 }
-.team-presentation {
-  flex-direction: column;
-  position: static;
-  float: left;
-  padding: 2.5em;
+.third-section .employee-class button.employee span.job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--link-another-color);
+  cursor: pointer;
 }
 
 .footer {
@@ -204,55 +205,29 @@ li.navigation-menu a.email-adress {
   float: left;
   padding: 2.5em;
 }
-.contact-class,
+.footer,
 .footer-logo {
   flex-shrink: 0;
   display: inline;
   flex-direction: column;
   float: left;
 }
-.contact-class {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  padding-left: 6.25em;
-}
-.footer-logo {
-  color: var(--link-active-color);
-  font-size: 1.625em;
-  font-family: Raleway;
-  font-weight: 700;
-  letter-spacing: 0.04875em;
-  padding-left: 3.5em;
-}
-.adress {
-  color: var(--link-color);
+footer address.address {
+  font-weight: 400;
   font-size: 14px;
-  font-family: var(--link-font-family);
-  letter-spacing: 0.02625em;
-  text-decoration: none;
-  width: 14.4375em;
-  height: 1em;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+  padding: 12px 0px 0px 205px;
 }
-.mail {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 0.875em;
-  font-family: var(--link-font-family);
-  line-height: 1em;
-  letter-spacing: 0.02625em;
+footer address a.contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 3px;
+  color: var(--link-another-color);
   text-decoration: none;
-  width: 14.4375em;
-  height: 1em;
-}
-.phone {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 0.875em;
-  font-family: var(--link-font-family);
-  line-height: 1em;
-  letter-spacing: 0.02625em;
-  text-decoration: none;
-  width: 14.4375em;
-  height: 1em;
+  padding: 12px 0px 12px 0px;
 }
 .adress:hover,
 .adress:focus,
