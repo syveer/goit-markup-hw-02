@@ -16,6 +16,25 @@
 }
 .body-class {
   font-family: var(--link-font-family);
+  width: 1600px;
+  height: 2348px;
+  background: var(--link-color);
+}
+.global-header div.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1100px;
+  height: 80px;
+  flex-shrink: 0;
+  background: #fff;
+  flex-wrap: wrap;
+}
+.global-header div.class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .global-header
   .header
@@ -34,6 +53,9 @@
   ul.team-class
   li.team-presentation {
   list-style-type: none;
+  display: flex;
+  display: inline-block;
+  text-align: center;
 }
 
 a:link,
@@ -110,6 +132,17 @@ li.navigation-menu a.email-adress {
 .global-header div.hero-continer .body-class footer.footer {
   background-color: #2f303a;
 }
+.global-header div.hero-continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  width: 1600px;
+  height: 600px;
+  flex-shrink: 0;
+}
 
 .global-header .hero-continer h1.hero-title {
   font-weight: 900;
@@ -118,6 +151,15 @@ li.navigation-menu a.email-adress {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--link-color);
+  display: flex;
+  width: 696px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .main-section {
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 .global-header.button .hero-continer button.button {
   font-weight: 700;
@@ -125,7 +167,7 @@ li.navigation-menu a.email-adress {
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: var(--link-colorx);
+  color: var(--link-second-color);
   cursor: pointer;
   border-radius: 4px;
   background-color: var(--link-active-color);
@@ -136,6 +178,14 @@ li.navigation-menu a.email-adress {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: var(--link-third-color);
+  width: 270px;
+  height: 16px;
+  text-align: left;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .main-section div.text {
+  margin: 15px;
 }
 .container div.column p.details {
   font-family: var(--link-font-family);
@@ -146,6 +196,25 @@ li.navigation-menu a.email-adress {
   color: var(--link-another-color);
   text-align: left;
   margin: 2px;
+  width: 270px;
+  height: 75px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .second-section li menu.images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .second-section ul li img {
+  margin-top: 50px;
+  margin-bottom: 94px;
+  margin-right: -125px;
+  margin-left: 165px;
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .container .second-section h2.title {
   font-weight: 700;
@@ -155,18 +224,16 @@ li.navigation-menu a.email-adress {
   text-align: center;
   font-family: var(--link-font-family);
 }
-.images {
-  padding-left: 3.75em;
-  padding-right: 1.875em;
-}
+
 .container .third-section h2.last-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42.19px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin: 94px 717px 25px 717px;
 }
-.third-section p {
+.container .third-section p {
   color: var(--link-another-color);
   text-align: center;
   font-size: 1em;
@@ -174,7 +241,7 @@ li.navigation-menu a.email-adress {
   letter-spacing: 0.03em;
 }
 
-.third-section .employee-class strong.employee-name {
+.container .third-section .employee-class strong.employee-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -185,6 +252,16 @@ li.navigation-menu a.email-adress {
   width: 270px;
   height: 30px;
   flex-shrink: 0;
+  display: inline-block;
+  margin-top: 10px;
+}
+.container .third-section .employee-class button.job img {
+  display: flex;
+  align-content: flex-start;
+  width: 270px;
+  height: 260px;
+  flex-shrink: 0;
+  padding-top: 0px;
 }
 .third-section .employee-class button.employee span.job {
   font-weight: 400;
@@ -194,16 +271,22 @@ li.navigation-menu a.email-adress {
   text-align: center;
   color: var(--link-another-color);
   cursor: pointer;
+  margin: 50px 15px 94px 15px;
+  padding: 0px 0px 200px 0px;
+  width: 270px;
+  height: 368px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--link-color);
+  border: none;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .footer {
-  background-color: #333;
-  padding-top: 3.75em;
-  padding-bottom: 3.75em;
-  flex-direction: column;
-  position: static;
-  float: left;
-  padding: 2.5em;
+  width: 1600px;
+  height: 251px;
+  flex-shrink: 0;
 }
 .footer,
 .footer-logo {
@@ -219,6 +302,11 @@ footer address.address {
   letter-spacing: 0.03em;
   color: var(--link-color);
   padding: 12px 0px 0px 205px;
+  display: flex;
+  height: 16px;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: stretch;
 }
 footer address a.contact {
   font-weight: 400;
@@ -228,6 +316,11 @@ footer address a.contact {
   color: var(--link-another-color);
   text-decoration: none;
   padding: 12px 0px 12px 0px;
+  display: flex;
+  width: 231px;
+  height: 16px;
+  flex-direction: column;
+  flex-shrink: 0;
 }
 .adress:hover,
 .adress:focus,
