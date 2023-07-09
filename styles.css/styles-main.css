@@ -17,10 +17,13 @@
 .body-class {
     font-family: var(--link-font-family) ;
 }
-.main-navigation ul li .global-header, .link, .link-studio, .link-portofolio, .phone-number, .email-adress {
-    text-decoration: none; 
+.global-header .header .main-navigation ul li.navigation-menu
+.hero-continer .contact .container .main-section  .text 
+.column .second-section ul.menu .third-section ul.team-class li.team-presentation 
+{
+    list-style-type: none; 
 }
-ul {
+ {
     color: var(--link-third-color);
     font-weight: 500;
     font-size: 14px;
@@ -55,16 +58,27 @@ a:link,a:visited {
     font-weight: 700;
     letter-spacing: 0.04875em;
 }
-.link {
-    position: absolute;
-    top: 2em;
-    left: 39.6875em;
+a.link-studio {
+    color: var(--link-active-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: 32px 47px 32px 0px;
+    font-family: var(--link-font-family);
 }
-.link-portofolio {
-    position: absolute;
-    top: 2em;
-    left: 33.4375em;
+li.navigation-menu a.link {
+    color: var(--link-third-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: 32px 48px 32px 0px;
+    font-family: var(--link-font-family);
 }
+
 .phone-number {
     color: var(--link-another-color);
     font-size: 0.875em;
@@ -85,26 +99,9 @@ a:link,a:visited {
     top: 2em;
     left: 59.375em;
 }
-.link, .link-portofolio {
-    color: var(--link-third-color);
-    font-size: 0.875em;
-    font-family: var(--link-font-family);
-    font-weight: 500;
-    letter-spacing: 0.0175em;
-}
-.link-studio {
-    color: var(--link-active-color);
-    font-size: 14px;
-    font-family: var(--link-font-family);
-    font-weight: 500;
-    letter-spacing: 0.0175em8px;
-    position: absolute;
-    top: 2em;
-    left: 27.1875em;
-}
+
  .link:hover, .link:focus, .email-adress:hover, .email-adress:focus,
- .phone-number:hover, .phone-number:focus, .link-portofolio:hover,
- .link-portofolio:focus, .link-studio:hover, .link-studio:focus
+ .phone-number:hover, .phone-number:focus, .link-studio:focus, link-studio:hover
   {
     color: var(--link-active-color);
  }
