@@ -1,316 +1,264 @@
 :root {
-    --link-font-family: 'Roboto';
-    --link-color: #fff;
-    --link-active-color: #2196F3;
-    --link-second-color: #7575;
-    --link-third-color:#212121;
-    --link-another-color: #757575;
+  --link-font-family: "Roboto";
+  --link-color: #fff;
+  --link-active-color: #2196f3;
+  --link-second-color: #7575;
+  --link-third-color: #212121;
+  --link-another-color: #757575;
 }
 .container {
-    box-sizing: border-box;
-    width: 1600px;
-    height: 2306px;
+  box-sizing: border-box;
+  width: 1600px;
+  height: 2306px;
 }
 .auto {
-    cursor: pointer;
+  cursor: pointer;
 }
 .body-class {
-    font-family: var(--link-font-family) ;
+  font-family: var(--link-font-family);
 }
-.global-header .header .main-navigation ul li.navigation-menu
-.hero-continer .contact .container .main-section  .text 
-.column .second-section ul.menu .third-section ul.team-class li.team-presentation 
-{
-    list-style-type: none; 
+.global-header
+  .header
+  .main-navigation
+  ul
+  li.navigation-menu
+  .hero-continer
+  .contact
+  .container
+  .main-section
+  .text
+  .column
+  .second-section
+  ul.menu
+  .third-section
+  ul.team-class
+  li.team-presentation {
+  list-style-type: none;
 }
- {
-    color: var(--link-third-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    margin: 32px 48px 32px 0px;
-}
-li {
-    color: var(--link-third-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    margin: 32px 48px 32px 0px;
-}
-a:link,a:visited {
-	font-weight:bold;
-	font-size:1.0625em;
-	text-align:center;
-	padding:0.375em;
+
+a:link,
+a:visited {
+  font-weight: bold;
+  font-size: 1.0625em;
+  text-align: center;
+  padding: 0.375em;
 }
 
 .logo {
-    position: absolute;
-    top: 1.5em;
-    left: 10em;
-    color:var(--link-active-color);
-    font-size: 1.625em;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.04875em;
+  position: absolute;
+  top: 1.5em;
+  left: 10em;
+  color: var(--link-active-color);
+  font-size: 1.625em;
+  font-family: Raleway;
+  font-weight: 700;
+  letter-spacing: 0.04875em;
 }
 a.link-studio {
-    color: var(--link-active-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    margin: 32px 47px 32px 0px;
-    font-family: var(--link-font-family);
+  color: var(--link-active-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  margin: 32px 47px 32px 0px;
+  font-family: var(--link-font-family);
 }
 li.navigation-menu a.link {
-    color: var(--link-third-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    margin: 32px 48px 32px 0px;
-    font-family: var(--link-font-family);
+  color: var(--link-third-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  margin: 32px 48px 32px 0px;
+  font-family: var(--link-font-family);
 }
 
-.phone-number {
-    color: var(--link-another-color);
-    font-size: 0.875em;
-    font-family: var(--link-font-family);
-    font-weight: 500;
-    letter-spacing: 0.0175em;
-    position: absolute;
-    top: 2em;
-    left: 71.875em;
+li.navigation-menu a.phone-number {
+  font-family: var(--link-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: var(--link-another-color);
+  text-decoration: none;
+  margin: 32px 40px 32px 0px;
 }
-.email-adress {
-    color: var(--link-active-color);
-    font-size: 0.875em;
-    font-family: var(--link-font-family);
-    font-weight: 500;
-    letter-spacing: 0.0175em;
-    position: absolute;
-    top: 2em;
-    left: 59.375em;
-}
-
- .link:hover, .link:focus, .email-adress:hover, .email-adress:focus,
- .phone-number:hover, .phone-number:focus, .link-studio:focus, link-studio:hover
-  {
-    color: var(--link-active-color);
- }
- 
-.main-section h6 {
-    color: var(--link-third-color);
-    font-size: 1em;
-    font-family: var(--link-font-family);
-    font-weight: 700;
-    letter-spacing: 0.02625em;
-    text-transform: uppercase;
-    display: flex;
-    width: 270px;
-    flex-direction: column;
-    flex-shrink: 0;
-}
-.main-section .text {
-    color: var(--link-another-color);
-    font-size: 1.5em;
-    font-family: var(--link-font-family);
-    line-height: 1.5em;
-    letter-spacing: 0.02625em;
-    display: inline;
-    position: static;
-    float:left;
-    flex-direction: row;
-}
-.text {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-.hero-continer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Axa Principala */
-    align-items: center; /* Axa Secundara  */
-    height: 400px;
-}
-.hero-continer {
-    background-color: #2F303A;
+li.navigation-menu a.email-adress {
+  font-family: var(--link-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: var(--link-active-color);
+  text-decoration: none;
+  margin: 32px 40px 32px 0px;
 }
 
- .hero-title {
-    color: var(--link-color);
-    text-align: center;
-    font-size: 2.75em;
-    font-family: var(--link-font-family);
-    font-weight: 900;
-    line-height: 3.75em;
-    letter-spacing: 0.165em;
-    text-transform: uppercase;
-    top: 12.5em;
+.link:hover,
+.link:focus,
+.email-adress:hover,
+.email-adress:focus,
+.phone-number:hover,
+.phone-number:focus,
+.link-studio:focus,
+.link-studio:hover {
+  color: var(--link-active-color);
 }
 
-
-
-.button {
-    color: var(--link-color);
-    font-size: 1em;
-    font-family: var(--link-font-family);
-    text-align: center;
-    font-weight: 700;
-    line-height: 1.875em;
-    letter-spacing: 0.06em;
-    background-color: var(--link-active-color);
-    position: static;
-    top: 24.5em;
-    left: 45em;
+.global-header div.hero-continer .body-class footer.footer {
+  background-color: #2f303a;
 }
-.title {
-    color:var(--link-third-color);
-    text-align: center;
-    font-size: 2.25em;
-    font-family: var(--link-font-family);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.0675em;
-    padding-top: 15.625em;
-    padding-bottom: 2.5em;
-    
+
+.global-header .hero-continer h1.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--link-color);
+}
+.global-header.button .hero-continer button.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--link-color);
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--link-active-color);
 }
 
 .column {
-    display: inline;
-    position: static;
-    left: 13.4375em;
-    width: 16.875em;
-    height: 16.875em;
-    flex-direction: center;
-    justify-content: center;
-    padding: 2.5em;
-    color: var(--link-another-color);
-    font-size: 0.875em;
-    font-family: var(--link-font-family);
-    line-height: 1.5em;
-    letter-spacing: 0.02625em;
+  display: inline;
+  position: static;
+  left: 13.4375em;
+  width: 16.875em;
+  height: 16.875em;
+  flex-direction: center;
+  justify-content: center;
+  padding: 2.5em;
+  color: var(--link-another-color);
+  font-size: 0.875em;
+  font-family: var(--link-font-family);
+  line-height: 1.5em;
+  letter-spacing: 0.02625em;
 }
 .second-section {
-    display: inline;
-    padding-left: 2.5em;
-    padding-right: 2.5em;  
+  display: inline;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 .images {
-    padding-left: 3.75em;
-    padding-right: 1.875em;  
+  padding-left: 3.75em;
+  padding-right: 1.875em;
 }
 .third-section h3 {
-    color: var(--link-third-color);
-    text-align: center;
-    font-size: 1em;
-    font-family: var(--link-font-family);
-    font-weight: 500;
-    letter-spacing: 0.03em;
+  color: var(--link-third-color);
+  text-align: center;
+  font-size: 1em;
+  font-family: var(--link-font-family);
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
 .third-section p {
-    color: var(--link-another-color);
-    text-align: center;
-    font-size: 1em;
-    font-family: var(--link-font-family);
-    letter-spacing: 0.03em;
+  color: var(--link-another-color);
+  text-align: center;
+  font-size: 1em;
+  font-family: var(--link-font-family);
+  letter-spacing: 0.03em;
 }
 .last-title {
-    color:var(--link-third-color);
-    text-align: center;
-    font-size: 2.25em;
-    font-family: var(--link-font-family);
-    font-weight: 700;
-    letter-spacing: 0.0675em;
-    padding-top: 6.25em;
+  color: var(--link-third-color);
+  text-align: center;
+  font-size: 2.25em;
+  font-family: var(--link-font-family);
+  font-weight: 700;
+  letter-spacing: 0.0675em;
+  padding-top: 6.25em;
 }
 .team-class {
-    color:var(--link-third-color);
-    text-align: center;
-    font-size: 1em;
-    font-family: var(--link-font-family);
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    padding-top:3.75em;
+  color: var(--link-third-color);
+  text-align: center;
+  font-size: 1em;
+  font-family: var(--link-font-family);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding-top: 3.75em;
 }
 .team-presentation {
-    flex-direction: column;
-    position: static;
-    float:left;
-    padding: 2.5em;
+  flex-direction: column;
+  position: static;
+  float: left;
+  padding: 2.5em;
 }
 
 .footer {
-    background-color: #333;
-    padding-top: 3.75em;
-    padding-bottom: 3.75em;
-    flex-direction: column;
-    position: static;
-    float:left;
-    padding: 2.5em;
+  background-color: #333;
+  padding-top: 3.75em;
+  padding-bottom: 3.75em;
+  flex-direction: column;
+  position: static;
+  float: left;
+  padding: 2.5em;
 }
-.contact-class, .footer-logo  {
-    flex-shrink: 0;
-    display: inline;
-    flex-direction: column;
-    float: left;
+.contact-class,
+.footer-logo {
+  flex-shrink: 0;
+  display: inline;
+  flex-direction: column;
+  float: left;
 }
 .contact-class {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    padding-left: 6.25em;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-left: 6.25em;
 }
 .footer-logo {
-    color:var(--link-active-color);
-    font-size: 1.625em;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.04875em;
-    padding-left: 3.5em;
+  color: var(--link-active-color);
+  font-size: 1.625em;
+  font-family: Raleway;
+  font-weight: 700;
+  letter-spacing: 0.04875em;
+  padding-left: 3.5em;
 }
 .adress {
-    color: var(--link-color);
-    font-size: 14px;
-    font-family: var(--link-font-family);
-    letter-spacing: 0.02625em;
-    text-decoration: none;
-    width: 14.4375em;
-    height: 1em;
+  color: var(--link-color);
+  font-size: 14px;
+  font-family: var(--link-font-family);
+  letter-spacing: 0.02625em;
+  text-decoration: none;
+  width: 14.4375em;
+  height: 1em;
 }
 .mail {
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 0.875em;
-    font-family: var(--link-font-family);
-    line-height: 1em;
-    letter-spacing: 0.02625em;
-    text-decoration: none;
-    width: 14.4375em;
-    height: 1em;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875em;
+  font-family: var(--link-font-family);
+  line-height: 1em;
+  letter-spacing: 0.02625em;
+  text-decoration: none;
+  width: 14.4375em;
+  height: 1em;
 }
-.phone{
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 0.875em;
-    font-family: var(--link-font-family);
-    line-height: 1em;
-    letter-spacing: 0.02625em;
-    text-decoration: none;
-    width: 14.4375em;
-    height: 1em;
+.phone {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875em;
+  font-family: var(--link-font-family);
+  line-height: 1em;
+  letter-spacing: 0.02625em;
+  text-decoration: none;
+  width: 14.4375em;
+  height: 1em;
 }
-.adress:hover, .adress:focus, .mail:hover, .mail:focus,
-.phone:hover, .phone:focus {
-    color: var(--link-color);
+.adress:hover,
+.adress:focus,
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--link-color);
 }
